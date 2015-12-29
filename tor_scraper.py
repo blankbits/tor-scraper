@@ -152,6 +152,7 @@ class TorScraper(object):
 
     def _tor_worker(self, index):
         """Function for worker thread to execute scrape tasks from the queue.
+        Loops until the queue is empty, then returns.
         """
         self._logger.info('Starting _tor_worker:' + str(index))
         while True:
@@ -166,5 +167,5 @@ class TorScraper(object):
                                      self._config['socks_port_offset'] + index)
                 scrape['handler'](scrape['url'], scrape['context'], result)
 
-                # Tell queue task is complete
+                # Tell queue task is complete.
                 self._scrape_queue.task_done()
