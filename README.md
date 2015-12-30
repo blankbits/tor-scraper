@@ -7,7 +7,10 @@ privacy, circumventing IP blocking and various forms of censorship, and going
 beyond what rate limits would otherwise allow.
 
 ## Dependencies
-* Python >= 2.7
+Note: other environments will very likely work with no or minimal changes. But,
+this is what was used to develop TorScraper.
+* OS X 10.11.2
+* Python 2.7.10
 * Third party
   * pycurl 7.19.5.3
   * PyYAML 3.11
