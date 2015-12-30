@@ -16,7 +16,7 @@
 """TorScraper is a utility for multi-threaded scraping via the Tor network.
 
 It provides a clean interface for anonymously scraping data from the web
-simultanously through multiple Tor exit nodes. This is useful for maintaining
+simultaneously through multiple Tor exit nodes. This is useful for maintaining
 privacy, circumventing IP blocking and various forms of censorship, and going
 beyond what rate limits would otherwise allow.
 
