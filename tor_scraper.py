@@ -22,13 +22,14 @@ beyond what rate limits would otherwise allow.
 
 Example:
     import tor_scraper
-    scraper = tor_scraper.TorScraper(
-         {'thread_count': 1,
-          'socks_port_offset': 9250,
-          'control_port_offset': 9350,
-          'data_directory': 'tor_data/',
-          'tor_cmd': '/Applications/TorBrowser.app/TorBrowser/Tor/tor.real',
-          'public_ip_url': 'https://api.ipify.org',})
+    scraper = tor_scraper.TorScraper({
+        'thread_count': 1,
+        'socks_port_offset': 9250,
+        'control_port_offset': 9350,
+        'data_directory': 'tor_data/',
+        'tor_cmd': '/Applications/TorBrowser.app/TorBrowser/Tor/tor.real',
+        'public_ip_url': 'https://api.ipify.org',
+    })
     scraper.add_scrape('http://www.apache.org/licenses/LICENSE-2.0')
     scraper.run()
 """
