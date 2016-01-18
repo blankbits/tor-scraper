@@ -1,14 +1,10 @@
 # TorScraper
 TorScraper is a utility for multi-threaded scraping via the Tor network.
 
-It provides a clean interface for anonymously scraping data from the web
-simultaneously through multiple Tor exit nodes. This is useful for maintaining
-privacy, circumventing IP blocking and various forms of censorship, and going
-beyond what rate limits would otherwise allow.
+It provides a clean interface for anonymously scraping data from the web simultaneously through multiple Tor exit nodes. This is useful for maintaining privacy, circumventing IP blocking and various forms of censorship, and going beyond what rate limits would otherwise allow.
 
 ## Dependencies
-Note: other environments will very likely work with no or minimal changes. But,
-this is what was used to develop TorScraper.
+Note: other environments will very likely work with no or minimal changes. But, this is what was used to develop TorScraper.
 * OS X 10.11.2
 * Python 2.7.10
 * Third party
@@ -17,8 +13,7 @@ this is what was used to develop TorScraper.
   * stem 1.4.0 
 
 ## Usage
-See [tor\_scraper.py](https://github.com/peterbrandt84/tor_scraper/blob/master/
-tor_scraper.py) for example usage.
+See [tor\_scraper.py](https://github.com/peterbrandt84/tor_scraper/blob/master/tor_scraper.py) for example usage.
 
 ## Contributing
 1. Fork it!
@@ -28,8 +23,7 @@ tor_scraper.py) for example usage.
 5. Submit a pull request :D
 
 ## License
-[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/
-LICENSE-2.0)
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 ## Contact
 peterbrandt84@gmail.com
