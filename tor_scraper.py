@@ -154,15 +154,15 @@ class TorScraper(object):
         """Function for worker thread to execute scrape tasks from the queue.
         Loops until the queue is empty, then returns.
         """
-        self._logger.info('Starting _tor_worker:' + str(index))
+        self._logger.info('Starting _tor_worker: ' + str(index))
         while True:
             try:
                 scrape = self._scrape_queue.get(False)
             except Queue.Empty:
                 break
             else:
-                self._logger.debug('Scraping _tor_worker:' + str(index) +
-                                   ' url:' + scrape['url'])
+                self._logger.debug('Scraping _tor_worker: ' + str(index) +
+                                   ' url: ' + scrape['url'])
                 result = self._query(scrape['url'],
                                      self._config['socks_port_offset'] + index)
                 scrape['handler'](scrape['url'], scrape['context'], result)
