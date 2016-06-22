@@ -27,7 +27,7 @@ Example:
         'socks_port_offset': 9250,
         'control_port_offset': 9350,
         'data_directory': 'tor_data/',
-        'tor_cmd': '/Applications/TorBrowser.app/TorBrowser/Tor/tor.real',
+        'tor_cmd': 'tor',
         'public_ip_url': 'https://api.ipify.org',
     })
     scraper.add_scrape('http://www.apache.org/licenses/LICENSE-2.0')

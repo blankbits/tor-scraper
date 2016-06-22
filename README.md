@@ -5,11 +5,11 @@ It provides a clean interface for anonymously scraping data from the web simulta
 
 ## Dependencies
 Note: other environments will very likely work with no or minimal changes. But, this is what was used to develop TorScraper.
-* OS X 10.11.2
-* Python 2.7.10
+* Ubuntu Trusty 14.04
+* Python 2.7.6
 * Third party
-  * pycurl 7.19.5.3
-  * PyYAML 3.11
+  * PyYAML 3.10
+  * pycurl 7.43.0
   * stem 1.4.0 
 
 ## Usage
