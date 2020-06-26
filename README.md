@@ -13,7 +13,7 @@ Note: other environments will very likely work with no or minimal changes. But, 
   * stem 1.4.0 
 
 ## Usage
-See [tor\_scraper.py](https://github.com/peterbrandt84/tor_scraper/blob/master/tor_scraper.py) for example usage.
+See [tor\_scraper.py](tor_scraper.py) for example usage.
 
 ## Contributing
 1. Fork it!
@@ -24,6 +24,3 @@ See [tor\_scraper.py](https://github.com/peterbrandt84/tor_scraper/blob/master/t
 
 ## License
 [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
-
-## Contact
-peterbrandt84@gmail.com
